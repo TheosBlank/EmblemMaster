@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Bind
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/HipBone
+    localPosition: {x: -0.004739374, y: -0.1537503, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.70710677, w: 0.7071069}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone
+    localPosition: {x: 0.07234009, y: 0.000000007450581, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.012022225, w: 0.99992776}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/SKull
+    localPosition: {x: 0.22002247, y: 0.00000000541695, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.022600042, w: 0.9997446}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/SKull/LeftEye
+    localPosition: {x: 0.06394154, y: -0.030541226, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.71388507, w: 0.700263}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/SKull/RightEye
+    localPosition: {x: 0.06516054, y: 0.08965334, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.7081732, w: 0.7060388}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/SKull/LeftBrow
+    localPosition: {x: 0.12269475, y: -0.032027934, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.713885, w: 0.70026296}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/SKull/RightBrow
+    localPosition: {x: 0.12213322, y: 0.08818479, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.6764309, w: 0.73650604}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/LeftArmBone
+    localPosition: {x: 0.13459407, y: -0.069812156, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9957433, w: 0.092170745}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/LeftArmBone/LeftForeArmBone
+    localPosition: {x: 0.120000005, y: 0.000000037252903, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.19585206, w: 0.98063344}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/TorsoBone/RightArmBone
+    localPosition: {x: 0.12955233, y: 0.03875537, z: 0}
+    localRotation: {x: -0, y: 0, z: -0.9995814, w: -0.028933369}
+    localScale: {x: 1.0000006, y: 1.0000006, z: 1}
+  - path: Bones/HipBone/TorsoBone/RightArmBone/RightForeArmBone
+    localPosition: {x: 0.10845394, y: -0.000000029802306, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.13862866, w: 0.99034446}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/LeftLegBone
+    localPosition: {x: 0.00421479, y: -0.041953374, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9999893, w: 0.0046337587}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/LeftLegBone/LeftShinBone
+    localPosition: {x: 0.16000009, y: 0.000000018626451, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/LeftLegBone/LeftShinBone/LeftFoot
+    localPosition: {x: 0.14000013, y: 0.000000021573214, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.6446107, w: 0.764511}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/RightLegBone
+    localPosition: {x: 0.002434049, y: 0.026605863, z: 0}
+    localRotation: {x: -0, y: 0, z: -0.9990908, w: -0.04263406}
+    localScale: {x: 1.0000012, y: 1.0000012, z: 1}
+  - path: Bones/HipBone/RightLegBone/RightShinBone
+    localPosition: {x: 0.16000009, y: 0.000000018626451, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.12115909, w: 0.99263316}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/HipBone/RightLegBone/RightShinBone/RightFoot
+    localPosition: {x: 0.14000013, y: 0.000000021573214, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.68941903, w: 0.72436273}
+    localScale: {x: 1, y: 1, z: 1}
